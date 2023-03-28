@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-cd "$ETH0S_UPSTREAM_DIR"/binutils || exit
-mkdir -v build && cd build || exit
+cd "$ETH0S_WORKING_DIR"/sources/binutils
+mkdir -v build && cd build
 
 ../configure --prefix="$ETH0S_WORKING_DIR"/tools \
              --with-sysroot="$ETH0S_WORKING_DIR" \
