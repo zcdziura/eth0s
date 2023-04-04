@@ -50,7 +50,7 @@ LC_ALL=POSIX
 export LC_ALL
 
 ## Now, onto the show!
-# source "$SRC_DIR"/stages/stage-0.sh &&
+source "$SRC_DIR"/stages/stage-0.sh &&
 source "$SRC_DIR"/stages/stage-1.sh
 
 ## Cleanup...

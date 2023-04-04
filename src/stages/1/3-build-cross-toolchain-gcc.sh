@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 GCC_DIR="$ETH0S_WORKING_DIR"/sources/gcc
-cd $GCC_DIR
+cd "$GCC_DIR"
 
 case $(uname -m) in
 	x86_64)
