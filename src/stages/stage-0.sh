@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-source src/stages/0/1-prepare-working-dir.sh
+source "$SRC_DIR"/stages/0/1-prepare-working-dir.sh

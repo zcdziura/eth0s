@@ -1,0 +1,9 @@
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+
+[*.sh]
+tab_width = 4
+indent_style = tab
